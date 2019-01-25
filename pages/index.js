@@ -21,15 +21,40 @@ class Index extends React.Component {
           className="hero"
           style={{ fontSize: "5rem", lineHeight: 1 }}
         >
-          Let’s work together to bring your digital product ideas to life!
+          Bring your ideas and let’s work together to build something beautiful
         </Typography>
         <Typography
-          style={{ fontSize: "1.4rem", marginTop: 40, maxWidth: 1000 }}
+          color="secondary"
+          style={{ fontSize: "1.1rem", marginTop: 40, maxWidth: 1000 }}
         >
-          Codefully is a lean team of software engineers who love to analyze
-          business stories and come up with straignt forward software solutions.
+          <strong>
+            Get in touch and book a seat to the digital transformation journey!
+          </strong>
         </Typography>
-        <Grid container spacing={24} style={{ marginTop: 100 }}>
+        <Typography
+          style={{ fontSize: "1.2rem", marginTop: 5, maxWidth: 1000 }}
+        >
+          Codefully is an agile team of software engineers who love to analyze
+          business stories and deliver optimal solutions. Some of our key
+          services include custom application development, data analytics and
+          reporting, business process management, cloud infrastructure
+          implementation, and front-end design.
+        </Typography>
+        <Grid
+          container
+          alignItems="stretch"
+          spacing={16}
+          style={{ marginTop: 100 }}
+        >
+          <Grid item sm={4}>
+            <Card />
+          </Grid>
+          <Grid item sm={4}>
+            <Card />
+          </Grid>
+          <Grid item sm={4}>
+            <Card />
+          </Grid>
           <Grid item sm={4}>
             <Card />
           </Grid>

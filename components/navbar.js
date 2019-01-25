@@ -22,10 +22,13 @@ function ButtonAppBar(props) {
     <div className={classes.root}>
       <div className={classes.grow}>
         <h1 className="logo" style={{ margin: 0 }}>
-          <img src={LogoIcon} style={{ height: 40, marginRight: 10 }} alt="" />
-          codefully.io
+          <img src={LogoIcon} style={{ height: 36, marginRight: 10 }} alt="" />
+          codefully
         </h1>
       </div>
+      <Link prefetch href="products">
+        <Button style={{ marginLeft: 10 }}>Services</Button>
+      </Link>
       <Link prefetch href="products">
         <Button style={{ marginLeft: 10 }}>Products</Button>
       </Link>
@@ -36,12 +39,8 @@ function ButtonAppBar(props) {
         <Button style={{ marginLeft: 10 }}>About</Button>
       </Link>
       <Link prefetch href="contact">
-        <Button
-          style={{ marginLeft: 20 }}
-          variant="contained"
-          color="secondary"
-        >
-          Start a Project
+        <Button style={{ marginLeft: 20 }} variant="contained" color="primary">
+          Contact
         </Button>
       </Link>
     </div>
