@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   class="highcharts-root"
+   style="font-size:12px;font-family:'Unica One', sans-serif"
+   width="1853.649"
+   height="622.1889"
+   viewBox="0 0 1853.6491 622.1889"
+   id="svg360"
+   sodipodi:docname="chart.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata364">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1874"
+     inkscape:window-height="1136"
+     id="namedview362"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.59"
+     inkscape:cx="819.79331"
+     inkscape:cy="170.42503"
+     inkscape:window-x="46"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg360"
+     inkscape:snap-global="false" />
+  <desc
+     id="desc2">Created with Highcharts 7.0.2</desc>
+  <defs
+     id="defs12">
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="692.82031"
+       y2="692.82031"
+       id="highcharts-n0lrrgu-31"
+       gradientTransform="matrix(0.8660254,0,0,1.1547005,613.62487,119.84861)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#000000"
+         stop-opacity="1"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#333333"
+         stop-opacity="1"
+         id="stop6" />
+    </linearGradient>
+    <clipPath
+       id="highcharts-n0lrrgu-32">
+      <rect
+         x="0"
+         y="0"
+         width="600"
+         height="800"
+         id="rect9"
+         style="fill:none" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2243"
+       x="-0.034538669"
+       width="1.0690773"
+       y="-0.01838902"
+       height="1.036778">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.6189911"
+         id="feGaussianBlur2245" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2251"
+       x="-0.075779591"
+       width="1.1515592"
+       y="-0.014257776"
+       height="1.0285156">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3715055"
+         id="feGaussianBlur2253" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2271"
+       x="-0.03166655"
+       width="1.0633331"
+       y="-0.019322077"
+       height="1.0386442">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2010877"
+         id="feGaussianBlur2273" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2279"
+       x="-0.036257597"
+       width="1.0725152"
+       y="-0.017936285"
+       height="1.0358726">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.5221876"
+         id="feGaussianBlur2281" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2287"
+       x="-0.074582154"
+       width="1.1491643"
+       y="-0.014300975"
+       height="1.028602">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.1840781"
+         id="feGaussianBlur2289" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2295"
+       x="-0.038516515"
+       width="1.077033"
+       y="-0.017430578"
+       height="1.0348612">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.7680327"
+         id="feGaussianBlur2297" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2303"
+       x="-0.064331345"
+       width="1.1286627"
+       y="-0.014751697"
+       height="1.0295034">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.6922961"
+         id="feGaussianBlur2305" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2313"
+       x="-0.035717284"
+       width="1.0714346"
+       y="-0.018071521"
+       height="1.036143">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.6040161"
+         id="feGaussianBlur2315" />
+    </filter>
+  </defs>
+  <g
+     class="highcharts-3d-frame highcharts-3d-frame-back"
+     data-z-index="-1000"
+     id="g70"
+     transform="matrix(3.6743277,0,0,1.0261022,-87.210508,-150.10909)"
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;stroke-linejoin:round;fill:none">
+    <path
+       d="m 527.7111,747.17158 -503.972325,46.12314 1.233809,-0.8815 503.199886,-45.96243 z"
+       visibility="hidden"
+       id="path58"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+    <path
+       d="M 23.738775,7.6860619 527.7111,53.694186 528.17247,53.54921 24.972584,7.5867818 Z"
+       visibility="hidden"
+       id="path60"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+    <path
+       d="M 23.738775,793.29472 V 7.6860619 l 1.233809,-0.09928 V 792.41322 Z"
+       visibility="hidden"
+       id="path62"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+    <path
+       d="M 527.7111,53.694186 V 747.17158 l 0.46137,-0.72079 V 53.54921 Z"
+       visibility="hidden"
+       id="path64"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+    <path
+       d="M 24.972584,7.5867818 528.17247,53.54921 V 746.45079 L 24.972584,792.41322 Z"
+       visibility="visible"
+       id="path66"
+       inkscape:connector-curvature="0"
+       style="visibility:visible;fill:none" />
+    <path
+       d="M 23.738775,793.29472 527.7111,747.17158 V 53.694186 L 23.738775,7.6860619 Z"
+       visibility="hidden"
+       id="path68"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+  </g>
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path156"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 1731.4115,670.54117 164.4229,-4.28967 V 298.49863 l -164.4229,2.14769 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path160"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="M 897.26518,921.4621 567.37438,906.14849 V 1260.768 l 329.8908,30.589 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#f45b5b;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path164"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 1828.4888,789.62864 164.4229,-2.14769 V -192.5801 l -164.4229,-3.56134 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#f45b5b;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path168"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m -128.87979,-196.65249 -329.8908,25.3954 v 945.06107 l 329.8908,15.31361 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#90ee7e;stroke-width:3.92704177;stroke-linejoin:round;filter:url(#filter2287)"
+     inkscape:connector-curvature="0"
+     id="path172"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m -226.18846,1123.0397 166.819901,-4.3524 V 253.76652 l -166.819901,-0.72259 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#90ee7e;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path176"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m 1955.9942,-74.991822 -323.5938,5.151731 V 763.97701 l 323.5938,31.02689 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#2b908f;stroke-width:3.36067891;stroke-linejoin:round;filter:url(#filter2271)"
+     inkscape:connector-curvature="0"
+     id="path180"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m -379.50481,670.23635 166.81989,0.52919 V 399.48882 l -166.81989,-2.12093 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#2b908f;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path184"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m 1703.1903,-125.60562 -323.5938,20.64587 v 357.0951 l 323.5938,-5.15173 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:3.92704177;stroke-linejoin:round;filter:url(#filter2295)"
+     inkscape:connector-curvature="0"
+     id="path188"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 1126.5782,1122.1021 172.4787,-4.4998 V 740.97431 l -172.4787,2.25279 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path192"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m 560.35499,-320.75486 -308.4352,-16.05015 V 26.059994 l 308.4352,32.0602 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#f45b5b;stroke-width:3.92704177;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path196"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 941.56219,1488.8901 172.47871,-2.2528 V 859.5518 l -172.47871,-1.4887 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#f45b5b;stroke-width:2.5070436;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path200"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m 1679.9666,797.80582 -309.8552,4.30302 v 245.10786 l 309.8552,6.5114 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#90ee7e;stroke-width:1.31472373;stroke-linejoin:round;filter:url(#filter2251)"
+     inkscape:connector-curvature="0"
+     id="path204"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 497.44645,957.04001 43.43667,-2.06305 V 726.17559 l -43.43667,0.68768 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#2b908f;stroke-width:3.92704177;stroke-linejoin:round;filter:url(#filter2303)"
+     inkscape:connector-curvature="0"
+     id="path212"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m -387.34529,676.37912 175.0548,-1.52242 V -83.986119 l -175.0548,-3.03919 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:1.94170976;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path284"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 57.895903,173.64523 99.203847,-2.5882 V -29.74426 l -99.203847,1.29572 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:1.94170976;stroke-linejoin:round;filter:url(#filter2243)"
+     inkscape:connector-curvature="0"
+     id="path288"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m -98.946492,827.53711 -112.499378,-9.20507 v 192.91156 l 112.499378,18.3873 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#f45b5b;stroke-width:3.5079329;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path292"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m -18.024104,728.21152 44.904255,-9.34298 v -962.85955 l -44.904255,3.14516 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#f45b5b;stroke-width:1.94170976;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path296"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m 850.88744,767.62125 -112.49937,-3.09893 v 128.2862 l 112.49937,9.20507 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#90ee7e;stroke-width:1.94170976;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path300"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="M 87.462317,104.90444 188.22056,102.2757 v -202.36326 l -100.758243,1.316096 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#90ee7e;stroke-width:1.94170976;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path304"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m 636.63553,901.80513 -107.78084,-9.34649 v 194.35276 l 107.78084,18.6696 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#2b908f;stroke-width:1.94170976;stroke-linejoin:round;filter:url(#filter2279)"
+     inkscape:connector-curvature="0"
+     id="path308"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 305.93806,1027.1497 100.7582,-1.3161 V 823.47042 h -100.7582 z" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#2b908f;stroke-width:1.94170976;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path312"
+     data-z-index="0"
+     class="highcharts-3d-side"
+     d="m -61.216968,777.25844 -107.780842,-0.0229 v 194.35277 l 107.780842,9.3465 z" />
+  <g
+     class="highcharts-3d-frame highcharts-3d-frame-left"
+     data-z-index="1000"
+     id="g344"
+     transform="matrix(3.6743277,0,0,1.0261022,-87.210508,-150.10909)"
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;stroke-linejoin:round;fill:none">
+    <path
+       d="M 35.594128,801.0904 36.560029,800 l -11.587445,-7.58678 -1.233809,0.8815 z"
+       visibility="hidden"
+       id="path332"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+    <path
+       d="M 23.738775,7.6860619 24.972584,7.5867818 36.560029,0 35.594128,-0.09017464 Z"
+       visibility="hidden"
+       id="path334"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+    <path
+       d="M 23.738775,793.29472 V 7.6860619 L 35.594128,-0.09017464 V 801.0904 Z"
+       visibility="visible"
+       id="path336"
+       inkscape:connector-curvature="0"
+       style="visibility:visible;fill:none" />
+    <path
+       d="M 24.972584,7.5867818 V 792.41322 L 36.560029,800 V 0 Z"
+       visibility="hidden"
+       id="path338"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+    <path
+       d="M 35.594128,801.0904 V -0.09017464 L 36.560029,0 v 800 z"
+       visibility="visible"
+       id="path340"
+       inkscape:connector-curvature="0"
+       style="visibility:visible;fill:none" />
+    <path
+       d="M 23.738775,7.6860619 V 793.29472 l 1.233809,-0.8815 V 7.5867818 Z"
+       visibility="hidden"
+       id="path342"
+       inkscape:connector-curvature="0"
+       style="visibility:hidden;fill:none" />
+  </g>
+  <path
+     d="m 1571.2576,458.51573 106.8096,-0.19821 V 202.80149 l -106.8096,-1.29038 z"
+     class="highcharts-3d-front"
+     data-z-index="0"
+     id="path2237"
+     inkscape:connector-curvature="0"
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#f45b5b;stroke-width:1.61611354;stroke-linejoin:round" />
+  <path
+     d="M 168.95937,880.84927 61.178535,871.50278 v 194.35272 l 107.780835,18.6697 z"
+     class="highcharts-3d-side"
+     data-z-index="0"
+     id="path2307"
+     inkscape:connector-curvature="0"
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#90ee7e;stroke-width:1.94170976;stroke-linejoin:round;filter:url(#filter2313)" />
+  <path
+     d="m 191.79421,721.10286 99.20385,-2.5882 V 517.71337 l -99.20385,1.29572 z"
+     class="highcharts-3d-front"
+     data-z-index="0"
+     id="path2349"
+     inkscape:connector-curvature="0"
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:1.94170976;stroke-linejoin:round" />
+  <path
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:1.94170976;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="path2351"
+     data-z-index="0"
+     class="highcharts-3d-front"
+     d="m 137.55692,668.56049 99.20385,-2.5882 V 465.171 l -99.20385,1.29572 z" />
+  <path
+     d="m 174.84506,575.34015 99.20385,-2.5882 V 371.95066 l -99.20385,1.29572 z"
+     class="highcharts-3d-front"
+     data-z-index="0"
+     id="path2353"
+     inkscape:connector-curvature="0"
+     style="font-size:12px;font-family:'Unica One', sans-serif;opacity:0.6;fill:none;stroke:#7798bf;stroke-width:1.94170976;stroke-linejoin:round" />
+</svg>

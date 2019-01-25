@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Teko:700");
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro:300");
+body {
+  background-color: white !important;
+  font-family: Roboto, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.logo {
+  font-family: "Teko", "Roboto", sans-serif;
+  font-weight: 700;
+  // color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  font-family: "Advent Pro", sans-serif !important;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.container-lg {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container-md {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+strong {
+  font-weight: 500;
+}
+
+footer {
+  display: none;
+}
+
+.banner-text {
+  padding: 1.2rem 24px 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hpot {
+  display: none;
+}
+
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.banner1 {
+  // background-image: url("../images/office.jpg");
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: repeat-x;
+  background-color: #241d2b;
+  /* background-size: auto 100%; */
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
