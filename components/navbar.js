@@ -26,20 +26,20 @@ function ButtonAppBar(props) {
           codefully.io
         </h1>
       </div>
-      <Link prefetch href="about" style={{ marginLeft: 10 }}>
-        <Button>Products</Button>
+      <Link prefetch href="products">
+        <Button style={{ marginLeft: 10 }}>Products</Button>
       </Link>
-      <Link prefetch href="about" style={{ marginLeft: 10 }}>
-        <Button>Work</Button>
+      <Link prefetch href="work">
+        <Button style={{ marginLeft: 10 }}>Work</Button>
       </Link>
       <Link prefetch href="about">
         <Button style={{ marginLeft: 10 }}>About</Button>
       </Link>
-      <Link prefetch href="about">
+      <Link prefetch href="contact">
         <Button
+          style={{ marginLeft: 20 }}
           variant="contained"
           color="secondary"
-          style={{ marginLeft: 20 }}
         >
           Start a Project
         </Button>
