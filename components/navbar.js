@@ -25,8 +25,8 @@ function ButtonAppBar(props) {
           <a className="logo" style={{ margin: 0 }}>
             <img
               src={LogoIcon}
-              style={{ height: 36, marginRight: 10 }}
-              alt=""
+              style={{ height: 36, marginRight: 10, verticalAlign: -8 }}
+              alt="codefully"
             />
             codefully
           </a>
