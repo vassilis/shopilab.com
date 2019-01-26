@@ -19,36 +19,73 @@ const styles = () => ({
     flexWrap: "wrap",
     padding: 50
   },
-  img80: {
-    margin: 20,
-    maxWidth: 80
-  },
-  img100: {
-    margin: 20,
-    maxWidth: 100
-  },
-  img130: {
-    margin: 20,
-    maxWidth: 130
-  },
-  img180: {
-    margin: 20,
-    maxWidth: 180
+  img: {
+    margin: 20
   }
 });
 
 const Stack = ({ classes }) => (
   <div className={classes.root}>
-    <img className={classes.img100} src={LogoAws} alt="AWS" />
-    <img className={classes.img130} src={LogoHeroku} alt="Heroku" />
-    <img className={classes.img130} src={LogoNode} alt="Node" />
-    <img className={classes.img130} src={LogoReact} alt="React" />
-    <img className={classes.img130} src={LogoRedux} alt="Redux" />
-    <img className={classes.img130} src={LogoRails} alt="Ruby on Rails" />
-    <img className={classes.img180} src={LogoPostgres} alt="PostgreSQL" />
-    <img className={classes.img80} src={LogoMaterial} alt="Material UI" />
-    <img className={classes.img100} src={LogoBootstrap} alt="Bootstrap" />
-    <img className={classes.img180} src={LogoHighcharts} alt="Highcharts" />
+    <img
+      className={classes.img}
+      style={{ width: 90 }}
+      src={LogoAws}
+      alt="AWS"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 150 }}
+      src={LogoHeroku}
+      alt="Heroku"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 120 }}
+      src={LogoNode}
+      alt="Node"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 130 }}
+      src={LogoReact}
+      alt="React"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 130 }}
+      src={LogoRedux}
+      alt="Redux"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 130 }}
+      src={LogoRails}
+      alt="Ruby on Rails"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 190 }}
+      src={LogoPostgres}
+      alt="PostgreSQL"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 80 }}
+      src={LogoMaterial}
+      alt="Material UI"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 100 }}
+      src={LogoBootstrap}
+      alt="Bootstrap"
+    />
+    <img
+      className={classes.img}
+      style={{ width: 210 }}
+      src={LogoHighcharts}
+      alt="Highcharts"
+    />
   </div>
 );
 
