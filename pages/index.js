@@ -45,12 +45,7 @@ class Index extends React.Component {
           infrastructure implementation, and front-end design.
         </Typography>
         <Stack />
-        <Grid
-          container
-          alignItems="stretch"
-          spacing={16}
-          style={{ marginTop: 100 }}
-        >
+        <Grid container alignItems="stretch" spacing={16}>
           <Grid item sm={4}>
             <Card />
           </Grid>
