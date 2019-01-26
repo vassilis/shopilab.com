@@ -17,6 +17,10 @@ const styles = () => ({
     flexWrap: "wrap",
     padding: 50
   },
+  img100: {
+    margin: 20,
+    maxWidth: 100
+  },
   img130: {
     margin: 20,
     maxWidth: 130
@@ -29,7 +33,7 @@ const styles = () => ({
 
 const Stack = ({ classes }) => (
   <div className={classes.root}>
-    <img className={classes.img130} src={LogoAws} alt="AWS" />
+    <img className={classes.img100} src={LogoAws} alt="AWS" />
     <img className={classes.img130} src={LogoHeroku} alt="Heroku" />
     <img className={classes.img130} src={LogoNode} alt="Node" />
     <img className={classes.img130} src={LogoReact} alt="React" />
