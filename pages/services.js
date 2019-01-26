@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "next/link";
 import Navbar from "../components/navbar";
+import Stack from "../components/stack";
 
 const styles = theme => ({
   root: {
@@ -42,14 +43,16 @@ function About(props) {
         Methodology
       </Typography>
       <Typography style={{ fontSize: "1.2rem", marginTop: 5, maxWidth: 1000 }}>
-        Agile, Scrum, ...
+        Agile, Scrum, TDD, Git
       </Typography>
       <Typography variant="h4" style={{ marginTop: 40 }}>
         Our Stack
       </Typography>
       <Typography style={{ fontSize: "1.2rem", marginTop: 5, maxWidth: 1000 }}>
-        Friendly, constant communication...
+        Modern, edge technologies, community best practices, security, tested,
+        active development
       </Typography>
+      <Stack />
     </div>
   );
 }
