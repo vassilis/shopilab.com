@@ -12,6 +12,7 @@ import Typography from "@material-ui/core/Typography";
 const styles = {
   card: {
     // maxWidth: 345
+    border: "1px solid #ddd"
   },
   media: {
     height: 140
@@ -21,7 +22,7 @@ const styles = {
 function MediaCard(props) {
   const { classes } = props;
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} elevation={0}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
