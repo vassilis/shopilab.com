@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "next/link";
-import { Button } from "@material-ui/core";
+import { Button, Fab } from "@material-ui/core";
 import LogoIcon from "../images/logo-icon-4.svg";
 
 const styles = {
@@ -45,9 +45,14 @@ function ButtonAppBar(props) {
         <Button style={{ marginLeft: 10 }}>About</Button>
       </Link>
       <Link prefetch href="/contact">
-        <Button style={{ marginLeft: 20 }} variant="contained" color="primary">
+        <Fab
+          style={{ marginLeft: 20 }}
+          variant="extended"
+          color="primary"
+          elevation={2}
+        >
           Contact
-        </Button>
+        </Fab>
       </Link>
     </div>
   );
