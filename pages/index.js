@@ -26,20 +26,23 @@ class Index extends React.Component {
         </Typography>
         <Typography
           color="primary"
-          style={{ fontSize: "1.1rem", marginTop: 40, maxWidth: 1000 }}
+          style={{
+            fontSize: "1.6rem",
+            fontWeight: 300,
+            marginTop: 40,
+            maxWidth: 1000
+          }}
         >
-          <strong>
-            Get in touch and book a seat to the digital transformation journey!
-          </strong>
+          Get in touch and book a seat to the digital transformation journey!
         </Typography>
         <Typography
           style={{ fontSize: "1.2rem", marginTop: 5, maxWidth: 1000 }}
         >
           Codefully is an agile team of software engineers who love to analyze
-          business stories and deliver optimal solutions. Some of our key
-          services include custom application development, data analytics and
-          reporting, business process management, cloud infrastructure
-          implementation, and front-end design.
+          business stories and know how to deliver optimal solutions. Some of
+          our key services include custom application development, data
+          analytics and reporting, business process management, cloud
+          infrastructure implementation, and front-end design.
         </Typography>
         <Stack />
         <Grid
