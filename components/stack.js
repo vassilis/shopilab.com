@@ -8,6 +8,8 @@ import LogoReact from "../images/logo-react.png";
 import LogoRedux from "../images/logo-redux.png";
 import LogoAws from "../images/logo-aws.png";
 import LogoHeroku from "../images/logo-heroku.png";
+import LogoMaterial from "../images/logo-materialui.png";
+import LogoBootstrap from "../images/logo-bootstrap.png";
 
 const styles = () => ({
   root: {
@@ -40,6 +42,8 @@ const Stack = ({ classes }) => (
     <img className={classes.img130} src={LogoRedux} alt="Redux" />
     <img className={classes.img130} src={LogoRails} alt="Ruby on Rails" />
     <img className={classes.img180} src={LogoPostgres} alt="PostgreSQL" />
+    <img className={classes.img100} src={LogoMaterial} alt="Material UI" />
+    <img className={classes.img100} src={LogoBootstrap} alt="Bootstrap" />
     <img className={classes.img180} src={LogoHighcharts} alt="Highcharts" />
   </div>
 );
