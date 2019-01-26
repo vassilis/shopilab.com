@@ -19,6 +19,10 @@ const styles = () => ({
     flexWrap: "wrap",
     padding: 50
   },
+  img80: {
+    margin: 20,
+    maxWidth: 80
+  },
   img100: {
     margin: 20,
     maxWidth: 100
@@ -42,7 +46,7 @@ const Stack = ({ classes }) => (
     <img className={classes.img130} src={LogoRedux} alt="Redux" />
     <img className={classes.img130} src={LogoRails} alt="Ruby on Rails" />
     <img className={classes.img180} src={LogoPostgres} alt="PostgreSQL" />
-    <img className={classes.img100} src={LogoMaterial} alt="Material UI" />
+    <img className={classes.img80} src={LogoMaterial} alt="Material UI" />
     <img className={classes.img100} src={LogoBootstrap} alt="Bootstrap" />
     <img className={classes.img180} src={LogoHighcharts} alt="Highcharts" />
   </div>
