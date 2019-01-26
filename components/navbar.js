@@ -21,10 +21,16 @@ function ButtonAppBar(props) {
   return (
     <div className={classes.root}>
       <div className={classes.grow}>
-        <h1 className="logo" style={{ margin: 0 }}>
-          <img src={LogoIcon} style={{ height: 36, marginRight: 10 }} alt="" />
-          codefully
-        </h1>
+        <Link prefetch href="/">
+          <a className="logo" style={{ margin: 0 }}>
+            <img
+              src={LogoIcon}
+              style={{ height: 36, marginRight: 10 }}
+              alt=""
+            />
+            codefully
+          </a>
+        </Link>
       </div>
       <Link prefetch href="products">
         <Button style={{ marginLeft: 10 }}>Services</Button>

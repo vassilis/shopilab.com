@@ -5,6 +5,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Navbar from "../components/navbar";
 import Card from "../components/card";
 import { Grid } from "@material-ui/core";
+import Stack from "../components/stack";
 
 const styles = theme => ({});
 
@@ -24,7 +25,7 @@ class Index extends React.Component {
           Bring your ideas and let’s work together to build something beautiful
         </Typography>
         <Typography
-          color="secondary"
+          color="primary"
           style={{ fontSize: "1.1rem", marginTop: 40, maxWidth: 1000 }}
         >
           <strong>
@@ -40,6 +41,7 @@ class Index extends React.Component {
           reporting, business process management, cloud infrastructure
           implementation, and front-end design.
         </Typography>
+        <Stack />
         <Grid
           container
           alignItems="stretch"
