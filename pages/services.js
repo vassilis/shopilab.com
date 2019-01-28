@@ -31,7 +31,7 @@ function About(props) {
         Clients / Industries
       </Typography>
       <Typography style={{ fontSize: "1.2rem", marginTop: 5, maxWidth: 1000 }}>
-        Siemens, Wesco, Rittal, ...
+        Siemens, Wesco, Rittal, Osram, Eaton, SupplyForce, ...
       </Typography>
       <Typography variant="h4" style={{ marginTop: 40 }}>
         Attitude
