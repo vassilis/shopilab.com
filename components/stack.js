@@ -1,15 +1,15 @@
 import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
-import LogoRails from "../images/logo-rails.png";
-import LogoPostgres from "../images/logo-postgresql.png";
-import LogoHighcharts from "../images/logo-highcharts.png";
-import LogoNode from "../images/logo-nodejs.png";
-import LogoReact from "../images/logo-react.png";
-import LogoRedux from "../images/logo-redux.png";
-import LogoAws from "../images/logo-aws.png";
-import LogoHeroku from "../images/logo-heroku.png";
-import LogoMaterial from "../images/logo-materialui.png";
-import LogoBootstrap from "../images/logo-bootstrap.png";
+import LogoRails from "../images/logo-rails.svg";
+import LogoPostgres from "../images/logo-postgresql.svg";
+import LogoHighcharts from "../images/logo-highcharts.svg";
+import LogoNode from "../images/logo-nodejs.svg";
+import LogoReact from "../images/logo-react.svg";
+import LogoRedux from "../images/logo-redux.svg";
+import LogoAws from "../images/logo-aws.svg";
+import LogoHeroku from "../images/logo-heroku.svg";
+import LogoMaterial from "../images/logo-material-ui.svg";
+import LogoBootstrap from "../images/logo-bootstrap.svg";
 
 const styles = () => ({
   root: {
@@ -28,61 +28,61 @@ const Stack = ({ classes }) => (
   <div className={classes.root}>
     <img
       className={classes.img}
-      style={{ width: 90 }}
+      style={{ width: 110 }}
       src={LogoAws}
       alt="AWS"
     />
     <img
       className={classes.img}
-      style={{ width: 150 }}
+      style={{ width: 60 }}
       src={LogoHeroku}
       alt="Heroku"
     />
     <img
       className={classes.img}
-      style={{ width: 120 }}
+      style={{ width: 140 }}
       src={LogoNode}
       alt="Node"
     />
     <img
       className={classes.img}
-      style={{ width: 130 }}
+      style={{ width: 90 }}
       src={LogoReact}
       alt="React"
     />
     <img
       className={classes.img}
-      style={{ width: 130 }}
+      style={{ width: 90 }}
       src={LogoRedux}
       alt="Redux"
     />
     <img
       className={classes.img}
-      style={{ width: 130 }}
+      style={{ width: 160 }}
       src={LogoRails}
       alt="Ruby on Rails"
     />
     <img
       className={classes.img}
-      style={{ width: 190 }}
+      style={{ width: 80 }}
       src={LogoPostgres}
       alt="PostgreSQL"
     />
     <img
       className={classes.img}
-      style={{ width: 80 }}
+      style={{ width: 90 }}
       src={LogoMaterial}
       alt="Material UI"
     />
     <img
       className={classes.img}
-      style={{ width: 100 }}
+      style={{ width: 80 }}
       src={LogoBootstrap}
       alt="Bootstrap"
     />
     <img
       className={classes.img}
-      style={{ width: 210 }}
+      style={{ width: 90 }}
       src={LogoHighcharts}
       alt="Highcharts"
     />
