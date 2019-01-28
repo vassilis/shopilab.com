@@ -1,5 +1,6 @@
 import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
+import Link from "next/link";
 import LogoRails from "../images/logo-rails.svg";
 import LogoPostgres from "../images/logo-postgresql.svg";
 import LogoHighcharts from "../images/logo-highcharts.svg";
@@ -26,12 +27,14 @@ const styles = () => ({
 
 const Stack = ({ classes }) => (
   <div className={classes.root}>
-    <img
-      className={classes.img}
-      style={{ width: 110 }}
-      src={LogoAws}
-      alt="AWS"
-    />
+    <Link href="/services">
+      <img
+        className={classes.img}
+        style={{ width: 110, cursor: "pointer" }}
+        src={LogoAws}
+        alt="AWS"
+      />
+    </Link>
     <img
       className={classes.img}
       style={{ width: 60 }}
@@ -52,7 +55,7 @@ const Stack = ({ classes }) => (
     />
     <img
       className={classes.img}
-      style={{ width: 90 }}
+      style={{ width: 80 }}
       src={LogoRedux}
       alt="Redux"
     />
