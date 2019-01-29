@@ -26,11 +26,15 @@ class ContactPage extends React.Component {
           <br />
           <form
             name="contact"
-            method="post"
-            data-netlify-honeypot="bot-field"
+            method="POST"
+            netlify-honeypot="bot-field"
             data-netlify="true"
           >
-            <input type="hidden" name="bot-field" />
+            <p style={{ display: "none" }}>
+              <label>
+                Don’t fill this out if you're human: <input name="bot-field" />
+              </label>
+            </p>
             <Grid container spacing={24}>
               <Grid item sm={6}>
                 <TextField
