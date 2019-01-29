@@ -15,12 +15,6 @@ class MyDocument extends Document {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           />
-          <meta
-            name="theme-color"
-            content={
-              pageContext ? pageContext.theme.palette.primary.main : null
-            }
-          />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -42,17 +36,17 @@ class MyDocument extends Document {
           <link
             rel="mask-icon"
             href="/static/safari-pinned-tab.svg"
-            color="#3f51b5"
+            color="#5761b8"
           />
           <link rel="shortcut icon" href="/static/favicon.ico" />
-          <meta name="apple-mobile-web-app-title" content="Codefully" />
-          <meta name="application-name" content="Codefully" />
-          <meta name="msapplication-TileColor" content="#3f51b5" />
+          <meta name="apple-mobile-web-app-title" content="Shopilab" />
+          <meta name="application-name" content="Shopilab" />
+          <meta name="msapplication-TileColor" content="#5761b8" />
           <meta
             name="msapplication-config"
             content="/static/browserconfig.xml"
           />
-          <meta name="theme-color" content="#3f51b5" />
+          <meta name="theme-color" content="#ffffff" />
         </Head>
         <body>
           <Main />

@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import TextField from "@material-ui/core/TextField";
-import { Grid, Button } from "@material-ui/core";
+import { Grid, Fab } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
+import SendIcon from "@material-ui/icons/SendRounded";
 
 class ContactPage extends React.Component {
   state = { firstName: "", lastName: "", message: "", email: "", phone: "" };
@@ -20,10 +21,7 @@ class ContactPage extends React.Component {
         <Navbar />
         <div className="container" style={{ padding: "50px 24px" }}>
           <Typography variant="h2" className="hero" gutterBottom>
-            <strong>
-              We love to discuss and analyse business stories! Let's get some
-              real work done!
-            </strong>
+            <strong>Let's get started!</strong>
           </Typography>
           <br />
           <form
@@ -100,14 +98,15 @@ class ContactPage extends React.Component {
               onChange={this.handleChange("message")}
               margin="normal"
             />
-            <Button
+            <Fab
               type="submit"
-              variant="contained"
+              variant="extended"
               color="primary"
-              style={{ marginTop: 20 }}
+              style={{ marginTop: 50 }}
             >
+              <SendIcon style={{ marginRight: 10 }} />
               Submit
-            </Button>
+            </Fab>
           </form>
         </div>
       </div>

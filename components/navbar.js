@@ -2,8 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "next/link";
-import { Button, Fab } from "@material-ui/core";
-import LogoIcon from "../images/logo-icon-4.svg";
 
 const styles = {
   root: {
@@ -23,37 +21,10 @@ function ButtonAppBar(props) {
       <div className={classes.grow}>
         <Link prefetch href="/">
           <a className="logo" style={{ margin: 0 }}>
-            <img
-              src={LogoIcon}
-              style={{ height: 36, marginRight: 10, verticalAlign: -8 }}
-              alt="codefully"
-            />
-            codefully
+            shopilab
           </a>
         </Link>
       </div>
-      <Link prefetch href="/services">
-        <Button style={{ marginLeft: 10 }}>Services</Button>
-      </Link>
-      <Link prefetch href="/products">
-        <Button style={{ marginLeft: 10 }}>Products</Button>
-      </Link>
-      <Link prefetch href="/work">
-        <Button style={{ marginLeft: 10 }}>Work</Button>
-      </Link>
-      <Link prefetch href="/about">
-        <Button style={{ marginLeft: 10 }}>About</Button>
-      </Link>
-      <Link prefetch href="/contact">
-        <Fab
-          style={{ marginLeft: 20 }}
-          variant="extended"
-          color="primary"
-          elevation={2}
-        >
-          Contact
-        </Fab>
-      </Link>
     </div>
   );
 }
