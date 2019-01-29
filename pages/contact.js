@@ -27,8 +27,8 @@ class ContactPage extends React.Component {
           <form
             name="contact"
             method="POST"
-            netlify="true"
-            netlify-honeypot="bot-field"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
           >
             <input type="hidden" name="bot-field" />
             <Grid container spacing={24}>
