@@ -4,6 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Link from "next/link";
 import { Fab } from "@material-ui/core";
 import EmailIcon from "@material-ui/icons/EmailRounded";
+import { withRouter } from "next/router";
 
 const styles = theme => ({
   logoClass: {
@@ -19,7 +20,8 @@ const styles = theme => ({
   root: {
     display: "flex",
     alignItems: "center",
-    marginBottom: 50
+    marginBottom: 50,
+    height: 60
   },
   grow: {
     flexGrow: 1
@@ -27,7 +29,7 @@ const styles = theme => ({
 });
 
 function ButtonAppBar(props) {
-  const { classes } = props;
+  const { classes, router } = props;
   return (
     <div className={classes.root}>
       <div className={classes.grow}>
@@ -37,12 +39,14 @@ function ButtonAppBar(props) {
           </a>
         </Link>
       </div>
-      <Link prefetch href="/contact">
-        <Fab variant="extended" aria-label="Get in touch" color="primary">
-          <EmailIcon style={{ marginRight: 10 }} />
-          Get in touch
-        </Fab>
-      </Link>
+      {router.pathname !== "/contact" && (
+        <Link prefetch href="/contact">
+          <Fab variant="extended" aria-label="Get in touch" color="primary">
+            <EmailIcon style={{ marginRight: 10 }} />
+            Get in touch
+          </Fab>
+        </Link>
+      )}
     </div>
   );
 }
@@ -51,4 +55,4 @@ ButtonAppBar.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(ButtonAppBar);
+export default withStyles(styles)(withRouter(ButtonAppBar));

@@ -17,7 +17,7 @@ class Index extends React.Component {
         <Navbar />
         <Typography
           className="hero"
-          style={{ fontSize: "3.5rem", lineHeight: 1 }}
+          style={{ fontSize: "3.5rem", lineHeight: 1.2 }}
         >
           Excellent user experience and outstanding customer support make
           extraordinary shops. You can count on us for the first!
