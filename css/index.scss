@@ -1,16 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Raleway:200|Maven+Pro:700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Raleway:200|Maven+Pro:700|Montserrat:900");
 
 body {
-  background-color: white !important;
   font-family: "Roboto", "Franklin Gothic Medium", Arial, sans-serif;
-}
-
-.logo {
-  font-family: "Maven Pro", "Roboto", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 36px;
-  color: #303030;
 }
 
 h1,
@@ -20,8 +11,9 @@ h4,
 h5,
 h6,
 .hero {
-  font-family: "Raleway", sans-serif !important;
-  font-weight: 200;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900;
+  color: #333;
 }
 
 .hero {

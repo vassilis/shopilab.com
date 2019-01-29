@@ -3,9 +3,6 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
 import Navbar from "../components/navbar";
-import Link from "next/link";
-import { Fab } from "@material-ui/core";
-import EmailIcon from "@material-ui/icons/EmailRounded";
 
 const styles = theme => ({});
 
@@ -20,20 +17,13 @@ class Index extends React.Component {
         <Navbar />
         <Typography
           className="hero"
-          style={{ fontSize: "4rem", lineHeight: 1 }}
+          style={{ fontSize: "3.5rem", lineHeight: 1 }}
         >
-          Great user experience and outstanding customer support make
-          extraordinary shops.
-          <br /> You can count on us for the first!
+          Excellent user experience and outstanding customer support make
+          extraordinary shops. You can count on us for the first!
         </Typography>
         <br />
         <br />
-        <Link prefetch href="/contact">
-          <Fab variant="extended" aria-label="Get in touch" color="primary">
-            <EmailIcon style={{ marginRight: 10 }} />
-            Get in touch
-          </Fab>
-        </Link>
         <div style={{ padding: "100px 0" }} />
       </div>
     );
